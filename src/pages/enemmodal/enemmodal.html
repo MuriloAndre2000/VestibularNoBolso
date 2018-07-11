@@ -1,0 +1,31 @@
+<!--
+  Generated template for the EnemmodalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Questão {{questao}}</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="dismiss()">Fechar</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p style="text-align: center">{{titulo}}</p>
+  <p [innerHTML]="texto"></p>
+  <p style="font-size: 8px; text-align: right">{{fonte}}</p>
+  <p style="font-size: 15px">{{enunciado}}</p>
+  <p><button ion-button round (click)="letraA()" [ngStyle]="{'background-color': buttonColorA}" style="padding: 13px 13px; color: black">A</button> <span style="font-size: 16px">{{alternativaA}}</span></p>
+  <p><button ion-button round (click)="letraB()" [ngStyle]="{'background-color': buttonColorB}" style="padding: 13px 13px; color: black">B</button> <span style="font-size: 16px">{{alternativaB}}</span></p>
+  <p><button ion-button round (click)="letraC()" [ngStyle]="{'background-color': buttonColorC}" style="padding: 13px 13px; color: black">C</button> <span style="font-size: 16px">{{alternativaC}}</span></p>
+  <p><button ion-button round (click)="letraD()" [ngStyle]="{'background-color': buttonColorD}" style="padding: 13px 13px; color: black">D</button> <span style="font-size: 16px">{{alternativaD}}</span></p>
+  <p><button ion-button round (click)="letraE()" [ngStyle]="{'background-color': buttonColorE}" style="padding: 13px 13px; color: black">E</button> <span style="font-size: 16px">{{alternativaE}}</span></p>
+  <span [innerHTML]="gabarito" style="font-size: 15px"></span>
+
+</ion-content>

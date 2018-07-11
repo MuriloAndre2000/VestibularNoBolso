@@ -1,0 +1,29 @@
+<!--
+  Generated template for the Matematicaporcentagemq5Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>matematicaporcentagemq5</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h4>(ENEM 2011) (ENEM 2010) Um professor dividiu a lousa da sala de aula em quatro partes iguais. Em seguida, preencheu 75% dela com conceitos e explicações, conforme a figura seguinte.</h4>
+  <img src="assets/imgs/prova_enem_-_questao_136.png" align="middle">
+  <h4>Algum tempo depois, o professor apagou a lousa por completo e, adotando um procedimento semelhante ao anterior, voltou a preenchê-la, mas, dessa vez, utilizando 40% do espaço dela.</h4>
+
+  <p><button ion-button round (click)="letraA()" [ngStyle]="{'background-color': buttonColorA}" style="padding: 13px 13px; color: black">A</button><img src="assets/imgs/prova_enem_-_questao_136_-_a.png" align="middle"></p>
+  <p><button ion-button round (click)="letraB()" [ngStyle]="{'background-color': buttonColorB}" style="padding: 13px 13px; color: black">B</button><img src="assets/imgs/prova_enem_-_questao_136_-_b_.png" align="middle"></p>
+  <p><button ion-button round (click)="letraC()" [ngStyle]="{'background-color': buttonColorC}" style="padding: 13px 13px; color: black">C</button><img src="assets/imgs/prova_enem_-_questao_136_-_c.png" align="middle"></p>
+  <p><button ion-button round (click)="letraD()" [ngStyle]="{'background-color': buttonColorD}" style="padding: 13px 13px; color: black">D</button><img src="assets/imgs/prova_enem_-_questao_136_-_d.png" align="middle"></p>
+  <p><button ion-button round (click)="letraE()" [ngStyle]="{'background-color': buttonColorE}" style="padding: 13px 13px; color: black">E</button><img src="assets/imgs/prova_enem_-_questao_136_-_e.png" align="middle"></p>
+  {{ops}}
+  <p><button ion-button round (click)="resposta()">Confirmar Resposta</button></p>
+
+</ion-content>

@@ -1,0 +1,28 @@
+<!--
+  Generated template for the Matematicaporcentagemq6Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>matematicaporcentagemq6</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <h4>ENEM 2010 Uma empresa possui um sistema de controle de qualidade que classifica o seu desempenho financeiro anual, tendo como base o do ano anterior. Os conceitos são: insuficiente, quando o crescimento é menor que 1%; regular, quando o crescimento é maior ou igual a 1% e menor que 5%; bom, quando o crescimento é maior ou igual a 5% e menor que 10%; ótimo, quando é maior ou igual a 10% e menor que 20%; e excelente, quando é maior ou igual a 20%. Essa empresa apresentou lucro de R$132000,00 em 2008 e de R$145000,00 em 2009.</h4>
+  <h4>De acordo com esse sistema de controle de qualidade, o desempenho financeiro dessa empresa no ano de 2009 deve ser considerado</h4>
+
+  <p><button ion-button round (click)="letraA()" [ngStyle]="{'background-color': buttonColorA}" style="padding: 13px 13px; color: black">A</button> <span style="font-size: 18px">insuficiente</span></p>
+  <p><button ion-button round (click)="letraB()" [ngStyle]="{'background-color': buttonColorB}" style="padding: 13px 13px; color: black">B</button> <span style="font-size: 18px">regular</span></p>
+  <p><button ion-button round (click)="letraC()" [ngStyle]="{'background-color': buttonColorC}" style="padding: 13px 13px; color: black">C</button> <span style="font-size: 18px">bom</span></p>
+  <p><button ion-button round (click)="letraD()" [ngStyle]="{'background-color': buttonColorD}" style="padding: 13px 13px; color: black">D</button> <span style="font-size: 18px">ótimo</span></p>
+  <p><button ion-button round (click)="letraE()" [ngStyle]="{'background-color': buttonColorE}" style="padding: 13px 13px; color: black">E</button> <span style="font-size: 18px">excelente</span></p>
+  {{ops}}
+  <p><button ion-button round (click)="resposta()">Confirmar Resposta</button></p>
+
+</ion-content>
